@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title></title>
+	<meta name="description" content="">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<!-- bootstrap CSS -->
+	<link href="Format/css/bootstrap.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="Format/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">WebLib</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Science Fiction</a></li>
+							<li><a href="#">Horror</a></li>
+							<li><a href="#">Mystery</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Easy Lib</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</li>
+
+					<li><a href="#">Readers Speak</a></li>
+					<li><a href="#">Press</a></li>
+					<li><a href="#">Blog</a></li>
+
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				<li>	<a href="#" data-toggle="modal" data-target="#myModal">
+				<span class="glyphicon glyphicon-log-in"></span> Login
+			</a>
+				</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- end of navbar-->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-user"></span>Sign up</h4>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail">Email address</label>
+							<input type="email" class="form-control" id"exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword">Password</label>
+							<input type="password" class="form-control" id"exampleInputPassword"  placeholder="Enter Password">
+						</div>
+
+					</form>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Login</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--carousel-->
+	<div class="carousel slide" id="myCarousel">
+
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+			<li data-slide-to="1" data-target="#myCarousel"></li>
+			<li data-slide-to="2" data-target="#myCarousel"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active" id="slide1">
+
+			</div><!-- end item -->
+
+			<div class="item" id="slide2">
+
+			</div><!-- end item -->
+
+			<div class="item" id="slide3">
+
+			</div><!-- end item -->
+		</div><!-- carousel-inner -->
+
+		<!-- Controls -->
+		<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+		<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+	</div><!-- end myCarousel -->
+	<div class="container" id="mid">
+		<div class="row" id="bigrow">
+			<div class="col-lg-12">
+
+				<!-- Visible on small devices -->
+				<div class="well well-sm visible-sm">
+					<a href="btn btn-lg btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>call us </a>
+				</div>
+				<!-- Big callout -->
+				<div class="well well-sm googleFontWell">
+					<div class="page-header">
+						<h1> Latest in sale <small> Get 50% off Offer valid for 2 days </small></h1>
+					</div>
+					<!-- Page header ends -->
+					<div class="image1"><img src="images/xmas.jpg" alt="The Girl With a dragon tatto" class="img-thumbnail"></div>
+					<p class="lead">The Christmas Train is a holiday event that will delight the whole family. On select nights in November and December, Dry Gulch is transformed into a winter wonderland that offers lots to see and do. </p>
+					<a href="#" class="btn btn-success btn-md" role="button" id="hideUnhide"> Buy now </a>
+					<a href="#" class="btn btn-link btn-md" role="button"> REad Online </a>
+				</div>                                    <!-- Well ends -->
+			</div>                                      <!-- Column 12 ends -->
+		</div>
+		<div class="row" id="aboveThreeColumn">
+			<div class="col-lg-12 googleFontCategories">
+				<h2 id="categories"> Categories </h2>
+			</div>                                      <!-- Column 12 ends -->
+		</div>                                        <!-- Above three column ends -->
+
+		<!-- Three column-->
+
+		<div class="row positionHeading" id="threeColumnPictures">
+			<div class="col-sm-3 column1">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title" id="panel-title"> Science Fiction </h3>
+					</div>                                  <!-- Panel heading end -->
+					<div class="image1"><img src="images/dune.jpg" alt="Dune" class="img-thumbnail"></div>
+					<p> Fam pickled affogato blue bottle 90's raw denim. Copper mug offal fap activated charcoal yr, chia polaroid keffiyeh leggings </p>
+					<a href="http://www.imdb.com/title/tt1327194/" target="_blank" class="btn btn-danger btn-block"> Dune</a>
+				</div>                                  <!-- Panel end -->
+			</div>                                    <!-- Column 1 ends-->
+
+			<div class="col-sm-3 column1">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title"id="panel-title">Mystery</h3>
+					</div>                                  <!-- Panel heading end -->
+					<div class="image1"><img src="images/novel2.png" alt="The Girl With a dragon tatto" class="img-thumbnail"></div>
+					<p> Fam pickled affogato blue bottle 90's raw denim. Copper mug offal fap activated charcoal yr, chia polaroid keffiyeh leggings </p>
+					<a href="http://www.imdb.com/title/tt0848228/" target="_blank" class="btn btn-warning btn-block">The Girl With a Dragon tatto </a>
+				</div>                                  <!-- Panel end -->
+			</div>                                    <!-- Column 2 ends-->
+
+			<div class="col-sm-3 column1">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title" id="panel-title">Drama </h3>
+					</div>                           <!-- Panel heading end -->
+					<div class="image1"><img src="images/novel3.jpg" alt="The Fault in our Stars" class="img-thumbnail"></div>
+					<p> Fam pickled affogato blue bottle 90's raw denim. Copper mug offal fap activated charcoal yr, chia polaroid keffiyeh leggings </p>
+					<a href="http://www.imdb.com/title/tt0109686/" target="_blank" class="btn btn-danger btn-block"> The Fault in our stars </a>
+				</div>                                  <!-- Panel end -->
+			</div>
+
+			<div class="col-sm-3 column1">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title" id="panel-title">Mystery</h3>
+					</div>                                  <!-- Panel heading end -->
+					<div class="image1"><img src="images/novel4.jpg" alt="The Girl With a dragon tatto" class="img-thumbnail"></div>
+					<p> Fam pickled affogato blue bottle 90's raw denim. Copper mug offal fap activated charcoal yr, chia polaroid keffiyeh leggings </p>
+					<a href="http://www.imdb.com/title/tt0848228/" target="_blank" class="btn btn-warning btn-block">Slaughter-House Five </a>
+				</div>                                  <!-- Panel end -->
+			</div>
+		</div>                                    <!-- Column 3 ends-->
+
+		<!-- Extra -->
+		<hr>
+		<!-- Big callout ends-->
+		<section class="circleIconBox">
+			<div class="container">
+				<div class="row">
+					<article class="col-lg-3 col-md-6 col-sm-6" style="border:none">
+						<div class="thumb-pad1 maxheight" style="height: 443px;"><div class="box_inner">
+							<div class="thumbnail" style="border:none">
+								<h2>Ask a Librarian</h2>
+								<div class="badge" id="mybadge"><span class="fa fa-comment fa-4x" style="background-color:#f2d13e"></span></div>
+								<div class="caption">
+									<p class="title">Mes cuml dia sed ineniet inger lot aliiqs dolore.</p>
+									<p>Mes cuml dia sed in lacus ut eniascet inger aliiqt es site amet eismod ictor ut ligulate ameti dapibus ticdu nt mtsen dolor.</p>
+									<a href="#" class="btn btn-primary btn1">read more</a>
+								</div>
+							</div>
+						</div></div>
+					</article>
+					<article class="col-lg-3 col-md-6 col-sm-6">
+						<div class="thumb-pad1 maxheight" style="height: 443px;"><div class="box_inner">
+							<div class="thumbnail" style="border:none">
+								<h2>Innovations</h2>
+								<div class="badge" id="mybadge"><span class="fa fa-lightbulb-o fa-4x" style="background-color:#f2d13e"></span></div>
+								<div class="caption">
+									<p class="title">Mes cuml dia sed ineniet inger lot aliiqs dolore.</p>
+									<p>Mes cuml dia sed in lacus ut eniascet inger aliiqt es site amet eismod ictor ut ligulate ameti dapibus ticdu nt mtsen dolor.</p>
+									<a href="#" class="btn btn-primary btn1">read more</a>
+								</div>
+							</div>
+						</div></div>
+					</article>
+					<article class="col-lg-3 col-md-6 col-sm-6">
+						<div class="thumb-pad1 maxheight" style="height: 443px;"><div class="box_inner">
+							<div class="thumbnail"style="border:none">
+								<h2>Join the Library</h2>
+								<div class="badge" id="mybadge"><span class="fa fa-pencil-square-o fa-4x" style="background-color:#f2d13e"></span></div>
+								<div class="caption">
+									<p class="title">Mes cuml dia sed ineniet inger lot aliiqs dolore.</p>
+									<p>Mes cuml dia sed in lacus ut eniascet inger aliiqt es site amet eismod ictor ut ligulate ameti dapibus ticdu nt mtsen dolor.</p>
+									<a href="#" class="btn btn-primary btn1">read more</a>
+								</div>
+							</div>
+						</div></div>
+					</article>
+					<article class="col-lg-3 col-md-6 col-sm-6">
+						<div class="thumb-pad1 maxheight" style="height: 443px;"><div class="box_inner">
+							<div class="thumbnail" style="border:none">
+								<h2>Help</h2>
+								<div class="badge" id="mybadge"><span class="fa fa-search fa-4x" style="background-color:#f2d13e"></span></div>
+								<div class="caption">
+									<p class="title">Mes cuml dia sed ineniet inger lot aliiqs dolore.</p>
+									<p>Mes cuml dia sed in lacus ut eniascet inger aliiqt es site amet eismod ictor ut ligulate ameti dapibus ticdu nt mtsen dolor.</p>
+									<a href="#" class="btn btn-primary btn1">read more</a>
+								</div>
+							</div>
+						</div></div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+		    <div class="container">
+		        <div class="row">
+		            <article class="col-lg-12 col-md-12 col-sm-12">
+		                <p><span>Libuno</span> © <em id="copyright-year">2016</em> | Privacy Policy</p>
+		                <ul>
+		                    <li><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
+		                    <li><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a></li>
+		                    <li><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+		                    <li><i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i></a></li>
+		                </ul>
+		            </article>
+		        </div>
+		    </div>
+		</footer>
+
+		<script src="Format/js/jquery-3.1.1.min.js"></script>
+
+		<!-- Bootstrap JS -->
+		<script src="Format/js/bootstrap.min.js"></script>
+
+		<!-- Custom JS -->
+		<script src="Format/js/script.js"></script>
+
+	</body>
+	</html>
